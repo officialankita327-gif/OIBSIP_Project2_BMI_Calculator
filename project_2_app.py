@@ -18,7 +18,6 @@ def get_bmi_category(bmi: float) -> str:
 
 
 def ask_positive_float(prompt: str) -> float:
-    """User se positive number safely lena."""
     while True:
         value_str = input(prompt).strip()
         if value_str.lower() in ("exit", "quit"):
@@ -70,3 +69,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
